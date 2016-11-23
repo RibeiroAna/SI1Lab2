@@ -1,0 +1,14 @@
+.feito {
+	text-decoration: line-through;
+	background-color: #d4d8dd;
+}
+
+.feito a { 
+   color: #717477;
+   pointer-events: none;
+   cursor: default;
+}
+
+.excluido {
+	display: none;
+}

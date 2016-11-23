@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title> Minha Lista de Afazeres</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="style.css">
+   <script src="script.js"></script>
+</head>
+
+<body>
+	<h1 class="glyphicon glyphicon-ok">Minha lista de afazeres</h1>
+	
+	<ul class="list-group col-xs-12">
+		 <li hidden="true" class="list-group-item" >
+			Fazer isto
+			<a href="#" class="col-xs-1">
+				<span class="glyphicon glyphicon-ok" onClick="fazerTarefa(this)">Feito</span>
+			</a>
+			<a href="#" class="col-xs-1">
+				<span class="glyphicon glyphicon-trash" onClick="excluirTarefa(this)">Excluir</span>
+			</a>
+		</li>
+		<li hidden="true" class="list-group-item" >
+			Fazer isto
+			<a href="#" class="col-xs-1">
+				<span class="glyphicon glyphicon-ok" onClick="fazerTarefa(this)">Feito</span>
+			</a>
+			<a href="#" class="col-xs-1">
+				<span class="glyphicon glyphicon-trash" onClick="excluirTarefa(this)">Excluir</span>
+			</a>
+		</li>
+		<li hidden="true" class="list-group-item" >
+			Fazer isto
+			<a href="#" class="col-xs-1">
+				<span class="glyphicon glyphicon-ok" onClick="fazerTarefa(this)">Feito</span>
+			</a>
+			<a href="#" class="col-xs-1">
+				<span class="glyphicon glyphicon-trash" onClick="excluirTarefa(this)">Excluir</span>
+			</a>
+		</li>
+
+	</ul>
+	
+	<div>
+		<label class="col-xs-2" for="textoTarefa">Adicionar Tarefa:</label>
+		<input type="text"  class="col-xs-5" id="textoTarefa">
+		<button type="button" class="col-xs-1 btn btn-default" onClick="addTarefa()">Adicionar!</button>
+		<button type="button" class="col-xs-1 btn btn-default">Limpar lista</button>
+	</div>
+
+</body>
+
+</html>
+
