@@ -3,7 +3,7 @@
 	background-color: #d4d8dd;
 }
 
-.feito a { 
+.linkfeito { 
    color: #717477;
    pointer-events: none;
    cursor: default;
