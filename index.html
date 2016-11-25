@@ -9,16 +9,23 @@
 </head>
 
 <body onLoad="addTarefasIniciais()">
-	<h1 class="glyphicon glyphicon-ok">Minha lista de afazeres</h1>
+	<h1 class="titulo glyphicon glyphicon-ok">Minha lista de afazeres</h1>
 
-	<ul id="listaDeTarefas" class="list-group col-xs-12"></ul>
-
-	<div>
+	<div class="divAdicionar">
 		<label class="col-xs-2" for="textoTarefa">Adicionar Tarefa:</label>
 		<input type="text"  class="col-xs-5" id="textoTarefa">
-		<button type="button" class="col-xs-1 btn btn-default" onClick="addTarefa()">Adicionar!</button>
-		<button type="button" class="col-xs-1 btn btn-default">Limpar lista</button>
+    <label class="col-xs-1"></label>
+		<button type="button" class="col-xs-2 btn btn-default" onClick="addTarefa()">Adicionar!</button>
 	</div>
-</body>
 
+  <div class="progress">
+    <div class="progress-bar progress-bar-info" role="progressbar" style="width:0%" id="barraFeita">
+       Tarefas feitas: 0
+    </div>
+    <div class="progress-bar" role="progressbar" style="width: 100%" id="barraTotal">
+      Total de Tarefas: 0
+    </div>
+  </div>
+  <ul id="listaDeTarefas" class="list-group col-xs-12"></ul>
+</body>
 </html>

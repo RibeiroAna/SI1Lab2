@@ -3,7 +3,7 @@
 	background-color: #d4d8dd;
 }
 
-.linkfeito { 
+.linkDisabled {
    color: #717477;
    pointer-events: none;
    cursor: default;
@@ -11,4 +11,9 @@
 
 .excluido {
 	display: none;
+}
+
+.divAdicionar {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
